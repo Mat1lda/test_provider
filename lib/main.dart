@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       create: (context) => MyModel(),
       child: MaterialApp(
         home: Scaffold(
-          appBar: AppBar(title: Text('My App')),
+          appBar: AppBar(title: Text('My App of Provider')),
           backgroundColor: Colors.grey,
           body: Row(
             mainAxisAlignment: MainAxisAlignment.center,
